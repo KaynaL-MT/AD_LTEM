@@ -1,0 +1,11 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - conda==4.14.0
+  - pip
+  - spyder-notebook
+  - jupyter
+  - slurm-jupyter
+prefix: /opt/homebrew/Caskroom/miniforge/base
